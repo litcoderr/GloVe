@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "extract",
+            "type": "python",
+            "request": "launch",
+            "module": "task.extract_msrvtt",
+            "justMyCode": true
+        },
+        {
             "name": "test glove",
             "type": "python",
             "request": "launch",

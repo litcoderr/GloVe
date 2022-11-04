@@ -32,3 +32,4 @@ if __name__ == "__main__":
     app = GloVe(
         vectors_file="/GloVe/pretrained/glove.6B.50d.txt"
     )
+    text_vector = app.get_vector_seq("hello world")
