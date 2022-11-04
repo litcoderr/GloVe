@@ -1,3 +1,5 @@
+pretrained/
+
 # Object files
 *.o
 *.ko
